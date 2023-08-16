@@ -322,3 +322,42 @@ body {
 .review {
     line-height: 1.75rem;
 }
+
+
+/* restaurants section */
+
+.section {
+    width: 100%;
+    padding: 2rem 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-detail {
+    width: 45%;
+    min-width: 300px;
+    margin-left: auto;
+}
+
+.section-highlight {
+    padding: .5rem 1rem;
+    border-radius: .2rem;
+    background: var(--alpha-secondary-color);
+    color: var(--secondary-color);
+}
+
+.section-tirle {
+    margin: 2rem 0;
+    font-size: 4rem;
+}
+
+.section-info {
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+section {
+    position: relative;
+    padding: 6rem 10vw;
+}
